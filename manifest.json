@@ -2,8 +2,10 @@
   "version": "1.0.1",
   "files": [
     {
-      "path": "Bot de Pedidos App.exe",
-      "url": "https://github.com/claudiofiuza/robo-pedidos-update/raw/main/Bot%20de%20Pedidos%20App.exe"
+      "path": "Bot de Pedidos App.zip",
+      "url": "https://github.com/claudiofiuza/robo-pedidos-update/raw/main/Bot%20de%20Pedidos%20App.zip",
+      "type": "zip",
+      "extract_to": "app"
     },
     {
       "path": "config_uniao.json",
