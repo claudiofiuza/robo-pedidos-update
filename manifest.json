@@ -1,0 +1,13 @@
+{
+  "version": "1.0.1",
+  "files": [
+    {
+      "path": "Bot_de_Pedidos.pyw",
+      "url": "https://raw.githubusercontent.com/claudiofiuza/robo-pedidos-update/main/Bot_de_Pedidos.pyw"
+    },
+    {
+      "path": "config_uniao.json",
+      "url": "https://raw.githubusercontent.com/claudiofiuza/robo-pedidos-update/main/config_uniao.json"
+    }
+  ]
+}
