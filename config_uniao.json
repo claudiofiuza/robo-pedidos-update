@@ -1,0 +1,65 @@
+{
+  "site_url": "https://192.168.0.100:8443/?tenant=47330692000108",
+  "timeouts": {
+    "page": 20,
+    "element": 20,
+    "login_menu": 45,
+    "menu_open": 25,
+    "budget_screen": 35,
+    "after_login": 8,
+    "after_menu_click": 2,
+    "after_customer": 2,
+    "after_product_search": 3,
+    "after_add_item": 2
+  },
+  "selectors": {
+    "login_user": {
+      "by": "id",
+      "value": "username"
+    },
+    "login_password": {
+      "by": "id",
+      "value": "current-password"
+    },
+    "menu_vendas": {
+      "by": "xpath",
+      "value": "//span[contains(normalize-space(), 'Vendas')]"
+    },
+    "menu_orcamentos": {
+      "by": "xpath",
+      "value": "//*[contains(normalize-space(), 'Orçamentos de faturamento') or contains(normalize-space(), 'Orcamentos de faturamento') or contains(normalize-space(), 'OrÃ§amentos de faturamento')]"
+    },
+    "btn_incluir": {
+      "by": "id",
+      "value": "incluir_incluir"
+    },
+    "aba_itens": {
+      "by": "xpath",
+      "value": "//li[contains(normalize-space(), 'Itens')]"
+    },
+    "cliente": {
+      "by": "id",
+      "value": "orcamentos-faturamentos_idCliente"
+    },
+    "produto": {
+      "by": "id",
+      "value": "PromptProduto_produto"
+    },
+    "quantidade": {
+      "by": "id",
+      "value": "FaturamentoItemModel_quantidade"
+    },
+    "btn_incluir_item": {
+      "by": "id",
+      "value": "itens_incluirItem"
+    },
+    "menu_pedidos_faturamento": {
+      "by": "id",
+      "value": "pedidofaturamentocrudcontroller"
+    },
+    "cliente_pedido_faturamento": {
+      "by": "id",
+      "value": "pedidos-faturamentos_idCliente"
+    }
+  }
+}
